@@ -7,24 +7,38 @@
 body {
     background-color: var(--black);
 }
+main{
+    overflow-y: scroll;
+}
 .side-nav{
     height: 100dvh;
 }
 
-.title h1, h3{
-    font: 25px Cinzel, serif;
+.title > *{
+    font: 1.8rem Cinzel, serif;
     color: var(--white);
 }
 
 .side-nav .nav-items{
-    font: 700 20px Roboto, sans-serif;
-    color: var(--gold);
+    font: 700 1.3rem Roboto, sans-serif;
 }
 
+.nav-items .nav-item a{
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.nav-items .nav-item a:hover{
+    transition: 300ms;
+    font-size: 1.5rem;
+}
 
 .side-nav small{
     color: #313131;
 }
-main{
-    overflow-y: scroll;
+
+#calendar iframe{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
 }
