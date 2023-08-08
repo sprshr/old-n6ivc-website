@@ -7,22 +7,24 @@
 body {
     background-color: var(--black);
 }
-nav{
+.side-nav{
     height: 100dvh;
-    position: sticky;
 }
 
 .title h1, h3{
-    font: 35px Cinzel, serif;
-    margin: 10px;
+    font: 25px Cinzel, serif;
     color: var(--white);
 }
 
-.nav-items{
+.side-nav .nav-items{
     font: 700 20px Roboto, sans-serif;
-    padding-bottom: 55%;
     color: var(--gold);
 }
- nav small{
+
+
+.side-nav small{
     color: #313131;
- }
+}
+main{
+    overflow-y: scroll;
+}
