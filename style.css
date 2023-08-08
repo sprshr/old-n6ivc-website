@@ -1,0 +1,28 @@
+:root {
+    --black: #231f20;
+    --gold: #8e793e;
+    --light-gold: #ad974e;
+    --white: #eaeaea !important;
+}
+body {
+    background-color: var(--black);
+}
+nav{
+    height: 100dvh;
+    position: sticky;
+}
+
+.title h1, h3{
+    font: 35px Cinzel, serif;
+    margin: 10px;
+    color: var(--white);
+}
+
+.nav-items{
+    font: 700 20px Roboto, sans-serif;
+    padding-bottom: 55%;
+    color: var(--gold);
+}
+ nav small{
+    color: #313131;
+ }
